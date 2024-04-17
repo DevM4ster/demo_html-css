@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+header, section, footer, aside, nav, article, hgroup{
+    display: block;
+}
+body{
+    text-align: center;
+}
+.agrupar{
+    border: 1px solid black;
+    width: 960px;
+    margin: auto;
+}
+.header{
+    background: #FFFBB9;
+    border: 1px solid #9999;
+    padding: 20px;
+}
+.menu{
+    background: #ccc;
+    padding: 5px 15px;
+    text-align: left;
+}   
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 15px verdana;
+    display: inline-block;
+}
+.header h1{
+    text-align: left;
+}
+.section{
+    margin:20px;
+    width: 60%;
+    float: left;
+}
+.paragraph{
+    text-align: justify;
+}
+article{
+    background: #fffbb9;
+    border: 1px solid #9999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+time{
+    color: #999;
+}
+.column{
+    display: inline-block;
+    width: 30%;
+    margin: 20px 0px;
+}
+img{
+    width: 80px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+.pie{
+    clear: both;
+    padding: 20px;
+    background: #2D3436;
+    color: #fff;
+}
+.column blockquote{
+    text-align: justify;
+    border: 1px solid black;
+    padding: 40px;
+    background: #fffbb9;
+    margin-bottom: 20px;
+}
